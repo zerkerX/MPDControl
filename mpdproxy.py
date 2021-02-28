@@ -127,7 +127,7 @@ if __name__ == "__main__":
         'device connected on serial port (e.g. Arduboy or similar).\n'
         'NOTE: This program is designed to run forever; use ctrl + C '
         'to quit.')
-    parser.add_argument('--server', '-s', default='10.0.1.9', # TODO change to localhost after testing
+    parser.add_argument('--server', '-s', default='localhost',
                        help='MPD server to connect to')
     parser.add_argument('--port', '-p', default=6600,
                        help='MPD port to use')
